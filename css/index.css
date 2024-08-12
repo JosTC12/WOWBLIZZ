@@ -1,0 +1,167 @@
+
+/* coloque una fondo disuclpe Miss  */
+
+body{
+/* background-image: url('./imagenes/repeat.jpg'); */
+/* background-size:auto; */
+background-color: black;
+/* background-position: center;
+background-attachment: fixed; */
+}
+
+
+/* modificando selector h1  */
+h1{color: rgb(87, 131, 196);
+    background-color:antiquewhite;
+    width: 600px;
+    margin:auto ;
+    padding: 18px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 25px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* modificando h2 */
+
+h2{ color: rgb(91, 148, 202);
+    background-color:antiquewhite;
+    width: 600px;;
+    margin:auto ;
+    padding: 18px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 25px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+/* modificamos h3  */
+
+h3{ color: rgb(91, 148, 202);
+    background-color:antiquewhite;
+    width: 300px;;
+    margin:auto ;
+    padding: 18px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 25px;
+
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+/* modificamos p  */
+
+p{
+    
+    font-family: "Maname", serif;
+    font-weight: 400;
+    font-style: normal;
+
+    color: white;
+    margin: 15px 20px;
+    margin-top: 5px 20px;
+    text-align: justify;
+    border-radius: 15px;    
+
+}
+
+/* modificamos imagen */
+
+img{
+    margin: 5px 5px 5px;    
+    border: 2px solid rgb(238, 147, 10);
+    margin-top: 10px;
+    border-radius: 10px 12px;
+    box-shadow: 10px 10px 10px rgb(71, 61, 2);
+    float: right;
+    max-width: 100%;       /* OCUPAR ESPACIO */
+}
+
+/* modificamos ul  */ 
+ul{
+    color: white;
+    margin: auto;
+    margin-top: auto;
+    text-align: justify;
+    /* border-radius: 10px;    */
+
+    font-family: "Maname", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* modificamos ol  */
+
+ol{
+    color: white;
+    margin: auto;
+    margin-top: auto;
+    text-align: justify;
+    /* border-radius: 10px; */
+
+    font-family: "Maname", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* modificamos li  */
+
+li{
+    color: white;
+    margin: auto;
+    margin-top: auto;
+    text-align: justify;
+    /* border-radius: 5px;    */
+
+    font-family: "Maname", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* modificamos los enlaces */
+
+a{
+    color: blue;
+    margin: auto;
+    margin-top: auto;
+    text-align: justify;
+    /* border-radius: 10px;    */
+
+    font-family: "Maname", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.img-logo{
+
+    width: 60%;
+}
+
+/* Media query para pantallas pequeñas (teléfonos móviles) */
+@media (max-width: 768px) {
+    
+}
+
+/* Media query para tablets y pantallas medianas */
+@media (min-width: 769px) and (max-width: 1024px) {
+    
+}
+
+/* Media query para pantallas grandes (desktops) */
+@media (min-width: 1025px) {
+    
+}

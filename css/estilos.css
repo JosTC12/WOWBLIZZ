@@ -1,0 +1,202 @@
+
+/*PARA COLOCAR TIPOS DE FUENTES A LOS TITULOS */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maname&display=swap');
+
+/* HEADER SOLO LO PUSE EN GAMES */
+
+header{
+
+    background-image: url(./imagenes/blizbanner.jpg);
+    background-position: center;    
+    width: 1200px;
+    height: 628px;
+    margin: auto;
+    border-radius: 10px;
+    
+}
+
+/* HACEMOS EL NAV  */
+
+nav{
+
+    width:100%;    
+    height: 90px;
+    margin:auto;
+    margin-top: 20px;
+    border-radius: 18px;
+
+}
+
+
+nav ul{
+    list-style-type: none;
+    
+}
+
+nav ul a{
+    text-decoration:none ;
+    background-color: goldenrod;
+    color: white;
+    padding: 18px 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border-radius: 18px;
+}
+
+nav ul li{
+
+    float: left;
+}
+
+nav ul :hover{
+    
+    background-color: rgb(82, 4, 4);
+
+}
+
+/* EDICION DEL SUBMENU  */
+
+nav li ul{
+
+    position: absolute;
+    width: 100%;
+    display: none;
+
+}
+
+nav li:hover > ul{
+
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar ul {
+        display: none;
+        width: 100%;
+    }
+} 
+
+/* AGREGAMOS FOOTER  */
+
+footer{
+
+    width: 100%;
+    height: 420px; 
+    background-color: rgb(39, 152, 228);
+    text-align: center;
+    margin-top: 10px; 
+         
+
+}
+
+.footer-logo {
+    width: 50px; 
+    height: auto; 
+    margin-top: 10px;
+    border-radius: 5px 5px 5px;
+    float: center;
+    
+    
+}
+
+.redes{
+
+    border: 3px;
+    height: auto;
+    width: 60px;
+    border:white;
+    float: left;
+    box-shadow: none;
+    animation: none;
+    
+}
+
+
+
+/* LE AGREGE UNA CLASE PORQUE TENIA YA UN SECTION  */
+
+.table-text{
+
+
+    width: 100%;
+    height: 250px;
+    margin: auto;    
+    background-color: blue;
+    margin-top: 20px;
+    border-radius: 10px;
+    color: white;
+
+}
+
+/* ELABORAMOS LA TABLA  */
+
+.table{
+
+    display: table;
+    width: 70%;
+    margin: auto;
+    background-color: grey;
+    border-collapse: collapse;
+    
+}
+
+.row{
+
+    display: table-row;
+}
+
+.cell{
+
+    display: table-cell;
+    border: 1px solid;  
+    padding: 10px;  
+    text-align: center;
+
+
+}
+
+/* DISEÑAMOS LA PAGINA REGISTRO */
+
+.formulario-registro{
+
+    color: azure;
+    margin: auto;
+    width: 500px;
+    background-color: rgb(7, 2, 53);
+    padding: 30px;
+    margin-top: 42px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.controles{
+
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 6px;
+
+}
+
+.grupo{
+
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+
+}
+
+.radio{
+
+    margin-bottom: 8px;
+    margin-left: 12px;
+}
+
+.boton{
+
+    width: 120px;
+    padding: 8px;
+    margin-top: 10px;
+}
